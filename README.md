@@ -16,7 +16,7 @@ Cuando el interruptor abre sus contactos bajo carga o cortocircuito:
 2. **Disipación Térmica y Ablación (destrucción del material):** La energía disipada en el arco provoca la fusión, vaporización y erosión por ablación del material conductor de los contactos.
 3. **Degradación No Lineal:** La pérdida de masa ($\Delta m$) por maniobra no es lineal; depende exponencialmente de la magnitud de la corriente interrumpida ($I$).
 
-Los fabricantes proporcionan **Diagramas de Vida Eléctrica**  en coordenadas logarítmicas/semilogarítmicas, que relacionan el número máximo admisible de operaciones Cierre-Apertura ($N(I)$) en función de la corriente de interrupción $I$.
+Los fabricantes proporcionan **Diagramas de Vida Eléctrica**  en coordenadas logarítmicas/semilogarítmicas, que relacionan el número máximo admisible de operaciones Cierre-Apertura ($ N(I)$) en función de la corriente de interrupción $I$.
 
 ---
 
