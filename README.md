@@ -27,11 +27,11 @@ La pérdida de masa por maniobra $\Delta m_i$ es proporcional a la energía elé
 
 $$E_{arc} = \int_{0}^{t_{arc}} u_{arc}(t) \cdot i(t) \, dt$$
 
-Dado que la tensión del arco $u_{arc}$ se mantiene relativamente constante durante la fase estable de arco, la pérdida de masa se relaciona directamente con la integral de la corriente $\int |i(t)|^{ lpha} dt$, traduciéndose empíricamente a una ley de potencias en función de la corriente eficaz (RMS) interrumpida $I$:
+Dado que la tensión del arco $u_{arc}$ se mantiene relativamente constante durante la fase estable de arco, la pérdida de masa se relaciona directamente con la integral de la corriente $\int |i(t)|^{\alpha} dt$, traduciéndose empíricamente a una ley de potencias en función de la corriente eficaz (RMS) interrumpida $I$:
 
 $$\Delta m \propto I^{ lpha}$$
 
-Donde $ lpha$ (exponente de corriente) varía típicamente entre **1.5 y 2.0**, según la geometría de los contactos, la presión del gas SF6 y el diseño de la boquilla (*nozzle*):
+Donde $ \alpha$ (exponente de corriente) varía típicamente entre **1.5 y 2.0**, según la geometría de los contactos, la presión del gas SF6 y el diseño de la boquilla (*nozzle*):
 * **$ lpha  pprox 1.0 - 1.5$:** Rango de corriente nominal o de carga (predomina la ablación térmica).
 * **$ lpha  pprox 2.0$:** Rango de corrientes de cortocircuito (fuerte erosión por arco y efectos de estrangulamiento magnético o *pinch effect*).
 
@@ -47,37 +47,21 @@ O en forma por tramos (como se observa en la gráfica del manual de operación):
 
 #### Desglose de Parámetros de la Gráfica Proporcionada:
 * **Límite Mecánico Máximo:** $N  pprox 10.000$ operaciones para corrientes bajas ($I \le 5 	ext{ kA}$).
-* **Rango de Interrupción Nominal:** Caída suave de $10.000$ maniobras a $5	ext{ kA}$ hasta $1.000$ maniobras a $ pprox 12	ext{ kA}$.
+* **Rango de Interrupción Nominal:** Caída suave de $10.000$ maniobras a $5	ext{ kA}$ hasta $1.000$ maniobras a $ pprox 12	ext{kA}$.
 * **Rango de Falla / Cortocircuito:** Decaimiento no lineal rápido hasta $ pprox 10 - 20$ operaciones a la capacidad máxima de ruptura en cortocircuito ($I_{sc} = 63	ext{ kA}$).
 
 ---
 
 ## 3. Desglose Paso a Paso de la Gráfica de Endurancia
 
-```
-Número de operaciones admisibles N(I)
- 10000 +----+----------------------------------+
-       |   |\                                  |
-       |   | \  Zona 1: Límite Mecánico/Carga  |
-  1000 +---+--\--------------------------------+
-       |       \                               |
-       |        \  Zona 2: Sobrecarga / Media  |
-   100 +---------\-----------------------------+
-       |          \                            |
-       |           \  Zona 3: Cortocircuito    |
-    10 +------------\--------------------------+
-       0     10     20    30    40    50    60  70
-                     Corriente de interrupción (kA)
-```
-
 1. **Zona 1 ($0 	ext{ kA} - 5 	ext{ kA}$):**
    * Límite constante en $N = 10.000$ operaciones.
-   * Causa dominante: Desgaste mecánico del mecanismo de accionamiento (p. ej., HMB8) y erosión térmica menor.
+   * Causa dominante: Desgaste mecánico del mecanismo de accionamiento (ejemplo el HMB8) y erosión térmica menor.
 2. **Zona 2 ($5 	ext{ kA} - 25 	ext{ kA}$):**
-   * Pendiente moderada ($ lpha  pprox 1.5$).
+   * Pendiente moderada ($ \alpha  pprox 1.5$).
    * Maniobras de carga nominal, corrientes inductivas/capacitivas o fallas de línea de baja magnitud.
 3. **Zona 3 ($25 	ext{ kA} - 63 	ext{ kA}$):**
-   * Pendiente pronunciada ($ lpha  pprox 2.0$).
+   * Pendiente pronunciada ($ \alpha  pprox 2.0$).
    * Cortocircuitos severos de alta energía que producen una pérdida significativa de material conductor en cada disparo.
 
 ---
