@@ -27,13 +27,13 @@ La pérdida de masa por maniobra $\Delta m_i$ es proporcional a la energía elé
 
 $$E_{arc} = \int_{0}^{t_{arc}} u_{arc}(t) \cdot i(t) \, dt$$
 
-Dado que la tensión del arco $u_{arc}$ se mantiene relativamente constante durante la fase estable de arco, la pérdida de masa se relaciona directamente con la integral de la corriente $\int |i(t)|^{\alpha} dt$, traduciéndose empíricamente a una ley de potencias en función de la corriente eficaz (RMS) interrumpida $I$:
+Dado que la tensión del arco $u_{arc}$ se mantiene relativamente constante durante la fase estable de arco, la pérdida de masa se relaciona directamente con la integral de la corriente $\int |i(t)|^{alpha} dt$, traduciéndose empíricamente a una ley de potencias en función de la corriente eficaz (RMS) interrumpida $I$:
 
-$$\Delta m \propto I^{ lpha}$$
+$$\Delta m \propto I^{alpha}$$
 
 Donde $ \alpha$ (exponente de corriente) varía típicamente entre **1.5 y 2.0**, según la geometría de los contactos, la presión del gas SF6 y el diseño de la boquilla (*nozzle*):
-* **$ lpha  pprox 1.0 - 1.5$:** Rango de corriente nominal o de carga (predomina la ablación térmica).
-* **$ lpha  pprox 2.0$:** Rango de corrientes de cortocircuito (fuerte erosión por arco y efectos de estrangulamiento magnético o *pinch effect*).
+* **$alpha  pprox 1.0 - 1.5$:** Rango de corriente nominal o de carga (predomina la ablación térmica).
+* **$alpha  pprox 2.0$:** Rango de corrientes de cortocircuito (fuerte erosión por arco y efectos de estrangulamiento magnético o *pinch effect*).
 
 ### 2.2 Definición Matemática de la Curva de Vida Eléctrica
 
@@ -54,14 +54,14 @@ O en forma por tramos (como se observa en la gráfica del manual de operación):
 
 ## 3. Desglose Paso a Paso de la Gráfica de Endurancia
 
-1. **Zona 1 ($0 	ext{ kA} - 5 	ext{ kA}$):**
+1. **Zona 1 ($0 	ext{kA} - 5 	ext{kA}$):**
    * Límite constante en $N = 10.000$ operaciones.
    * Causa dominante: Desgaste mecánico del mecanismo de accionamiento (ejemplo el HMB8) y erosión térmica menor.
-2. **Zona 2 ($5 	ext{ kA} - 25 	ext{ kA}$):**
-   * Pendiente moderada ($ \alpha  pprox 1.5$).
+2. **Zona 2 ($5 	ext{kA} - 25 	ext{kA}$):**
+   * Pendiente moderada ($alpha  pprox 1.5$).
    * Maniobras de carga nominal, corrientes inductivas/capacitivas o fallas de línea de baja magnitud.
-3. **Zona 3 ($25 	ext{ kA} - 63 	ext{ kA}$):**
-   * Pendiente pronunciada ($ \alpha  pprox 2.0$).
+3. **Zona 3 ($25 	ext{kA} - 63 	ext{kA}$):**
+   * Pendiente pronunciada ($alpha  pprox 2.0$).
    * Cortocircuitos severos de alta energía que producen una pérdida significativa de material conductor en cada disparo.
 
 ---
